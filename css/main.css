@@ -86,7 +86,7 @@ header nav ul li a{
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	flex-flow: row wrap;
 }
 
