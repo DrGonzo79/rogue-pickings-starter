@@ -46,7 +46,6 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	border-bottom: 3px solid #77a466;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -55,25 +54,26 @@ header {
 }
 
 header h1 {
-	margin: 0;
-	padding: 38px 0;
+	border-bottom: 3px solid #77a466;
+	
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 25px 0;
 }
 header nav ul {
 	margin: 0;
-	
 }
 header nav ul li {
 	text-transform: uppercase;
+	line-height: 20px;
 	font-weight: 700;
 	font-size: .875em;
 	padding: 0 10px;
+	list-style-type: none;
 	
 }
 header nav ul li a{
