@@ -1,4 +1,4 @@
-html{
+ html{
     height: 100%;
     font-size: 16px;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 .container{
-	max-width: 1200px;
+	max-width: 768px;
 	width: 90%;
 	display: flex;
 	justify-content: center;
@@ -51,6 +51,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	flex-direction: column;
 }
 
 header h1 {
@@ -66,14 +67,14 @@ header nav {
 }
 header nav ul {
 	margin: 0;
-	padding: 0;
+	
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
 	padding: 0 10px;
-	display: inline;
+	
 }
 header nav ul li a{
 	text-decoration: none;
@@ -86,7 +87,7 @@ header nav ul li a{
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 	flex-flow: row wrap;
 }
 
@@ -115,9 +116,9 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
-	border-top: 1px solid #eee;
+	border-top: 1px solid #eee;	
 }
 
 .section-one h3 {
